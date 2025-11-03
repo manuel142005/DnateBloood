@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@RequestMapping("/Banco")
+@RequestMapping("/banco")
 public class BancoController {
 
     private static final List<Banco> bancos = new ArrayList<>();

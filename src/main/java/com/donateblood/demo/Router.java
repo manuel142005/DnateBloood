@@ -16,7 +16,7 @@ public class Router {
         return "administrador";
     }
 
-    @GetMapping("/logincentro")
+    @GetMapping("/logincentro") 
     public String loginCentro() {
         return "centroMedico";
     }

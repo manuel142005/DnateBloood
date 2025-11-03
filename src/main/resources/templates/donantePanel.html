@@ -98,7 +98,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 id="bienvenida">Bienvenido a Donate Blood</h1>
+        <h1 id="bienvenida">Bienvenido a Donate Blood, <span th:text="${usuario.username}"></span></h1>
         <p>Accede a las funciones principales desde aquí.</p>
 
         <div class="botones">
@@ -108,15 +108,5 @@
             <a href="/perfil" class="boton perfil">Perfil del Donante</a>
         </div>
     </div>
-     
-    <!--AQUI VAMOS TRATAR DE QUE DIIGA HOLA "USUARIO REGISTRADO"-->
-    <script>
-       
-        const nombreUsuario = "username"; 
-
-        
-        const encabezado = document.getElementById("bienvenida");
-        encabezado.textContent = `Bienvenido a Donate Blood, ${nombreUsuario}`;
-    </script>
 </body>
 </html>
